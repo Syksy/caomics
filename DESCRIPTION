@@ -1,0 +1,20 @@
+Package: caomics
+Title: Misc Cancer Omics tools
+Version: 0.1
+Authors@R: person("Teemu Daniel", "Laajala", email = "teelaa@utu.fi",
+                  role = c("aut", "cre"))
+Description: An attempt in generalizing a set of Cancer Omics tools I found myself re-implementing for various contexts.
+Depends: R (>= 3.1.0)
+License: GPL-3
+LazyData: true
+URL: https://www.github.com/Syksy/caomics
+BugReports: https://www.github.com/Syksy/caomics/issues
+Encoding: UTF-8
+RoxygenNote: 7.1.1
+VignetteBuilder: knitr
+Imports:
+	knitr,
+	ComplexHeatmap,
+	GenomicRanges
+Suggests:
+	maftools
